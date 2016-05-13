@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-1">
+    <TextView android:textColor="0x106000c" android:id="@id/cellQuestion" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="60dp" android:text="Hello" android:layout_weight="0.5" />
+    <TextView android:textColor="0x106000c" android:id="@id/cellAnswered" android:layout_width="-1" android:layout_height="-2" android:text="World" android:layout_weight="0.5" />
+</LinearLayout>

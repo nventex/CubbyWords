@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="#02b9e5" android:layout_width="-1" android:layout_height="-1">
+    <Button android:textSize="30sp" android:textColor="#ffffff" android:layout_gravity="1" android:id="@id/btnStart" android:background="@drawable/buttonchoice" android:layout_width="250dp" android:layout_height="100dp" android:layout_marginTop="30dp" android:text="Start Game" android:shadowColor="#a8a8a8" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="5.0" />
+</LinearLayout>

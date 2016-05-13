@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="#02b9e5" android:layout_width="-1" android:layout_height="-1">
+    <Button android:textSize="30sp" android:textColor="#ffffff" android:layout_gravity="1" android:id="@id/btnTryAgain" android:background="@drawable/buttonchoice" android:layout_width="250dp" android:layout_height="50dp" android:layout_marginTop="30dp" android:text="Try Again" android:shadowColor="#a8a8a8" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="5.0" />
+    <TextView android:textSize="30dp" android:gravity="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="15dp" android:text="Results" />
+    <TextView android:textColor="0x106000c" android:id="@id/gameResultText" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="60dp" android:text="Hello" />
+    <ListView android:id="@id/gameResults" android:layout_width="-1" android:layout_height="-1" android:horizontalSpacing="1dp" android:verticalSpacing="1dp" android:columnWidth="90dp" />
+</LinearLayout>

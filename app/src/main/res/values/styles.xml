@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@android:style/Theme.Holo.Light.DarkActionBar" />
+    <style name="ChoiceButton">
+        <item name="android:background">@drawable/buttonchoice</item>
+        <item name="android:padding">10.0dip</item>
+        <item name="android:layout_width">100.0dip</item>
+        <item name="android:layout_height">100.0dip</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:cropToPadding">true</item>
+    </style>
+</resources>

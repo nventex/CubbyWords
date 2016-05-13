@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="#02b9e5" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="-1" android:layout_height="-1"
+    <LinearLayout android:gravity="11" android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="35dp">
+        <ImageButton android:id="@id/choice1" android:layout_marginRight="50dp" style="@style/ChoiceButton" />
+        <ImageButton android:id="@id/choice2" style="@style/ChoiceButton" />
+    </LinearLayout>
+    <LinearLayout android:gravity="11" android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+        <ImageButton android:id="@id/choice3" android:layout_marginRight="50dp" style="@style/ChoiceButton" />
+        <ImageButton android:id="@id/choice4" style="@style/ChoiceButton" />
+    </LinearLayout>
+    <com.nventex.core.views.AutoResizeTextView android:textSize="100dp" android:gravity="11" android:id="@id/questionText" android:layout_width="-1" android:layout_height="100dp" />
+</LinearLayout>
